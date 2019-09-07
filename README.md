@@ -1,3 +1,6 @@
+## redux勉強するため
+- 参考サイトURL(https://webbibouroku.com/Blog/Article/react-redux-todo)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
