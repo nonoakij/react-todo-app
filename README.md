@@ -2,8 +2,12 @@
 - 参考サイトURL
   - 作ってるやつのもと[https://webbibouroku.com/Blog/Article/react-redux-todo]
   - fluxとredux[https://qiita.com/syossan27/items/7e1b2e07ac68b96bdaa7]
+  - createStoreとは[https://qiita.com/miyarappo/items/30fff8d23704e92211b7]
+  
 - 参考イメージ
-  - <img src="https://camo.qiitausercontent.com/50fac8c3a36d87cefc34e41382dd9feebf5e7fe4/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e616d617a6f6e6177732e636f6d2f302f33393338322f38356530393432392d643966362d303738392d386434332d6364613637643166323037652e6a706567">
+<img src="https://camo.qiitausercontent.com/50fac8c3a36d87cefc34e41382dd9feebf5e7fe4/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e616d617a6f6e6177732e636f6d2f302f33393338322f38356530393432392d643966362d303738392d386434332d6364613637643166323037652e6a706567">
+
+- 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

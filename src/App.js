@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+import Todo from './containers/Todo';
+
 import './App.css';
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Todo />
     </div>
   );
 }
