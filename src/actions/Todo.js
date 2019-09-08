@@ -8,6 +8,7 @@
  */
 
 export const addTodo = (todo) => {
+  console.log('ACTION addTodo')
   return { 
     type: 'ADD_TODO',
     payload: { todo: todo }

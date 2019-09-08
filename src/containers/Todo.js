@@ -19,6 +19,7 @@ import * as actions from '../actions/Todo';
 import Todo from '../components/Todo';
 
 const mapStateToProps = state => {
+  console.log('START [mapStateToProps] containes');
   return {
     todo: state.todo,
   }
@@ -26,7 +27,10 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    addTodo: (todo) => dispatch(actions.addTodo(todo)),
+    addTodo: (todo) => {
+      console.log('START [mapDispatchToProps] containes');
+      dispatch(actions.addTodo(todo));
+    },
   }
 }
 

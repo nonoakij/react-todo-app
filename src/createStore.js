@@ -1,7 +1,3 @@
-import { createStore as reduxCreateStore, applyMiddleware, combineReducers } from "redux";
-import logger from "redux-logger";
-import { todoReducer } from "./reducers/Todo";
-
 /**
  * 
  * Redux内にある同名の createStore という関数を内部で使用するので、as を使って “reduxCreateStore” という名前で import しています。
@@ -10,7 +6,12 @@ import { todoReducer } from "./reducers/Todo";
  * 
  */
 
+import { createStore as reduxCreateStore, applyMiddleware, combineReducers } from "redux";
+import logger from "redux-logger";
+import { todoReducer } from "./reducers/Todo";
+
 export default function createStore() {
+  console.log('createStore');
   const store = reduxCreateStore(
     combineReducers({
       todo: todoReducer,

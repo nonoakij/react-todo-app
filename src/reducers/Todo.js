@@ -20,6 +20,7 @@ const initialState = {
 export const todoReducer = (state = initialState, action) => {
   switch (action.type) {
     case 'ADD_TODO':
+      console.log('START [SWITCH ADD_TODO] todoReducer');
       // 新しく追加するTODO
       const todo = action.payload.todo;
       // stateを複製して追加
@@ -27,6 +28,7 @@ export const todoReducer = (state = initialState, action) => {
       newState.todoList.push(todo);
       return newState;
     default:
+        console.log('START [default] todoReducer');
       return state;
   }
 };
